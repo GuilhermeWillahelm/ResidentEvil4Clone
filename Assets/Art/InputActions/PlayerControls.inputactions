@@ -16,9 +16,9 @@
                 },
                 {
                     "name": "Look",
-                    "type": "Button",
+                    "type": "PassThrough",
                     "id": "1749100d-ebbc-48cb-8929-80cb36b871a6",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -45,6 +45,24 @@
                     "name": "Attack",
                     "type": "Button",
                     "id": "6f81c1a8-061e-4452-91c7-b62a2c101c48",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Aim",
+                    "type": "Button",
+                    "id": "01f15f24-c058-4bf9-8db4-ba9322033129",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "3dd6bf96-36ec-4c6e-bf3c-d0b998297977",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -110,7 +128,7 @@
                 {
                     "name": "",
                     "id": "7a5059cb-171c-4ab1-9edb-663c804b4653",
-                    "path": "",
+                    "path": "<Mouse>/delta",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -121,7 +139,7 @@
                 {
                     "name": "",
                     "id": "8db273d2-887d-4ed7-b8a9-ca9a6186cf65",
-                    "path": "<Mouse>/leftButton",
+                    "path": "<Keyboard>/t",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -148,6 +166,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d8f104c5-3778-48e9-b68a-5ccb98022c53",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0d75a096-8511-4e16-9dfa-795029de7822",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
